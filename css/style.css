@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'agbalumo', 'Edu TAS Beginner';
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    border:  1px solid pink;
+    border-radius: 10px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(237, 113, 134, 0.339), rgba(0, 0, 0, 0.39)),
+    url('../img/cinema.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 6rem;
+    padding: 0.3rem;
+    color: rgba(255, 255, 255, 0.818);
+    background-color: rgba(179, 77, 140, 0.442);
+}
+
+.container h3 {
+    margin: 3rem;
+    color: rgb(148, 148, 210);
+    text-transform: capitalize;
+}
+
+.container p {
+    color: rgb(148, 148, 210);
+    font-size: 2rem;
+}
